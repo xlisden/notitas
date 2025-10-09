@@ -6,6 +6,12 @@ git config user.email "dayenira.delgado@gmail.com"
 - [Angular notes](https://app.capacities.io/home/2f182914-42b1-40b3-94c9-50b702c65c46)
 - [Nodejs best practices](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md)
 - [Git/GitHub](https://xlisden.notion.site/Git-GitHub-4da26f209cc040b3a72ae09038c11bf3)
+
+- auto close tag - jun han
+- auto import - steoates
+- auto rename tag - jun han
+- prettier eslint - rebecca vest
+
 ---
 ### 19:46 26/09/2025
 - node js v22 - 22.20.0
