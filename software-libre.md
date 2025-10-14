@@ -3,10 +3,13 @@
 git config user.name "xlisden"
 git config user.email "dayenira.delgado@gmail.com"
 ```
+#### ExpressJs
 ```bash
 npm i express cors dotenv mysql2
 npm i --save-dev nodemon
 ```
+#### Angular + Tailwind + DaisyUI
+https://daisyui.com/docs/install/angular/
 ```bash
 npm install daisyui@latest tailwindcss@latest @tailwindcss/postcss@latest postcss@latest --force
 ```
