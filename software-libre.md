@@ -3,16 +3,25 @@
 git config user.name "xlisden"
 git config user.email "dayenira.delgado@gmail.com"
 ```
-#### ExpressJs
+<details>
+<summary><b>ExpressJs</b></summary>
+  
 ```bash
 npm i express cors dotenv mysql2
 npm i --save-dev nodemon
 ```
-#### Angular + Tailwind + DaisyUI
-https://daisyui.com/docs/install/angular/
+</details>
+
+<details>
+<summary><b>Angular + Tailwind + DaisyUI</b></summary>
+- https://daisyui.com/docs/install/angular/
 ```bash
 npm install daisyui@latest tailwindcss@latest @tailwindcss/postcss@latest postcss@latest --force
 ```
+</details>
+
+<details>
+<summary><b>Otros</b></summary>
 - [Angular notes](https://app.capacities.io/home/2f182914-42b1-40b3-94c9-50b702c65c46)
 - [Nodejs best practices](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md)
 - [Git/GitHub](https://xlisden.notion.site/Git-GitHub-4da26f209cc040b3a72ae09038c11bf3)
@@ -21,6 +30,7 @@ npm install daisyui@latest tailwindcss@latest @tailwindcss/postcss@latest postcs
 - auto import - steoates
 - auto rename tag - jun han
 - prettier eslint - rebecca vest
+</details>
 
 ---
 ### 19:46 26/09/2025
