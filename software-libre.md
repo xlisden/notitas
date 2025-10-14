@@ -23,8 +23,8 @@ npm install daisyui@latest tailwindcss@latest @tailwindcss/postcss@latest postcs
 <details>
 <summary><b>Otros</b></summary>
 <li>[Angular notes](https://app.capacities.io/home/2f182914-42b1-40b3-94c9-50b702c65c46)</li>
-- [Nodejs best practices](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md)
-- [Git/GitHub](https://xlisden.notion.site/Git-GitHub-4da26f209cc040b3a72ae09038c11bf3)
+* [Nodejs best practices](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md)
+* [Git/GitHub](https://xlisden.notion.site/Git-GitHub-4da26f209cc040b3a72ae09038c11bf3)
 
 - auto close tag - jun han
 - auto import - steoates
