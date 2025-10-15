@@ -87,3 +87,19 @@ git config user.email "dayenira.delgado@gmail.com"
     (5, 'El amor en los tiempos del cólera', 'Gabriel García Márquez', '978-84-376-3433-3', 'Editorial Oveja Negra'),
     (6, 'Los detectives salvajes', 'Roberto Bolaño', '978-84-339-4249-0', 'Editorial Anagrama');
     ```
+- categoria
+  ```sql
+  CREATE TABLE IF NOT EXISTS `bibliotecadb`.`categoria` (
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `nombre` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+  
+  ALTER TABLE `bibliotecadb`.`libros` 
+  ADD COLUMN `categoria_id` INT NULL AFTER `editorial`;
+  
+  ALTER TABLE `bibliotecadb`.`libros` 
+  ADD CONSTRAINT fk_libros_categoria
+  FOREIGN KEY (categoria_id)
+  REFERENCES categoria(id)
+  ON DELETE SET NULL;
+  ```
