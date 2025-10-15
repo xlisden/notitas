@@ -75,14 +75,15 @@ git config user.email "dayenira.delgado@gmail.com"
 - los envs van al mismo nivel del package json o en root
 
 ### 17:39 15/10/2025
-  ```sql
-  INSERT INTO `bibliotecadb`.`libros`
-  (`id`, `titulo`, `autor`, `isbn`, `editorial`)
-  VALUES
-  (1, 'Cien años de soledad', 'Gabriel García Márquez', '978-3-16-148410-0', 'Editorial Sudamericana'),
-  (2, 'Don Quijote de la Mancha', 'Miguel de Cervantes', '978-84-376-0494-7', 'Editorial Planeta'),
-  (3, 'La sombra del viento', 'Carlos Ruiz Zafón', '978-84-08-05306-6', 'Editorial Planeta'),
-  (4, 'Ficciones', 'Jorge Luis Borges', '978-84-95060-01-7', 'Editorial Alianza'),
-  (5, 'El amor en los tiempos del cólera', 'Gabriel García Márquez', '978-84-376-3433-3', 'Editorial Oveja Negra'),
-  (6, 'Los detectives salvajes', 'Roberto Bolaño', '978-84-339-4249-0', 'Editorial Anagrama');
-  ```
+- insertar libros
+    ```sql
+    INSERT INTO `bibliotecadb`.`libros`
+    (`id`, `titulo`, `autor`, `isbn`, `editorial`)
+    VALUES
+    (1, 'Cien años de soledad', 'Gabriel García Márquez', '978-3-16-148410-0', 'Editorial Sudamericana'),
+    (2, 'Don Quijote de la Mancha', 'Miguel de Cervantes', '978-84-376-0494-7', 'Editorial Planeta'),
+    (3, 'La sombra del viento', 'Carlos Ruiz Zafón', '978-84-08-05306-6', 'Editorial Planeta'),
+    (4, 'Ficciones', 'Jorge Luis Borges', '978-84-95060-01-7', 'Editorial Alianza'),
+    (5, 'El amor en los tiempos del cólera', 'Gabriel García Márquez', '978-84-376-3433-3', 'Editorial Oveja Negra'),
+    (6, 'Los detectives salvajes', 'Roberto Bolaño', '978-84-339-4249-0', 'Editorial Anagrama');
+    ```
