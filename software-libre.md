@@ -62,7 +62,7 @@ git config user.email "dayenira.delgado@gmail.com"
   npm i --save-dev nodemon
   ```
 - bd bibliotecadb
-  ```
+  ```sql
   CREATE SCHEMA IF NOT EXISTS bibliotecadb
   CREATE TABLE `bibliotecadb`.`libros` (
     `id` INT NOT NULL AUTO_INCREMENT,
@@ -75,6 +75,7 @@ git config user.email "dayenira.delgado@gmail.com"
 - los envs van al mismo nivel del package json o en root
 
 ### 17:39 15/10/2025
+```sql
 INSERT INTO `bibliotecadb`.`libros`
 (`id`, `titulo`, `autor`, `isbn`, `editorial`)
 VALUES
@@ -85,3 +86,4 @@ VALUES
 (5, 'El amor en los tiempos del cólera', 'Gabriel García Márquez', '978-84-376-3433-3', 'Editorial Oveja Negra'),
 (6, 'Los detectives salvajes', 'Roberto Bolaño', '978-84-339-4249-0', 'Editorial Anagrama');
 
+```
