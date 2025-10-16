@@ -102,4 +102,19 @@ git config user.email "dayenira.delgado@gmail.com"
   FOREIGN KEY (categoria_id)
   REFERENCES categoria(id)
   ON DELETE SET NULL;
+
+INSERT INTO `bibliotecadb`.`categoria`
+(`nombre`)
+VALUES
+( 'drama'), ( 'comedia'), ( 'biografia');
+
+
+UPDATE libros SET categoria_id = 3 WHERE id = 1;
+
+SELECT * FROM libros WHERE categoria_id = 3;
+
+SELECT * FROM categoria ORDER BY id DESC;
+
+SELECT * FROM libros;
+  
   ```
