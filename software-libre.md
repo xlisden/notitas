@@ -5,11 +5,11 @@ git config user.email "dayenira.delgado@gmail.com"
 ```
 <details>
 <summary><b>ExpressJs</b></summary>
-  
-  ```bash
-  npm i express cors dotenv mysql2
-  npm i --save-dev nodemon
-  ```
+  - dependencias
+    ```bash
+    npm i express cors dotenv mysql2
+    npm i --save-dev nodemon
+    ```
 </details>
 
 <details>
