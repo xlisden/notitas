@@ -8,11 +8,17 @@ git config user.email "dayenira.delgado@gmail.com"
   
   - dependencias
       ```bash
-    npm i express cors dotenv mysql2
-    npm i --save-dev nodemon
-    ```
+      npm i express cors dotenv mysql2
+      npm i --save-dev nodemon
+      ```
   - iniciar
+      ```bash
+      npm init -y
+      ```
   - run
+      ```bash
+      node index.js
+      ```
 
 </details>
 
