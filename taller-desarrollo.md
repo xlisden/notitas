@@ -62,5 +62,8 @@ https://drive.google.com/drive/folders/1bMCGAqUW2qqACvsGOST2RzkqbqLXfvJD?usp=sha
   - public key not allowed
     1. driver properties
     2. allow public key retrival cambiar a true
-
+  - usar db en postregres
+    ```sql
+    SET search_path TO base_de_datos;
+    ```
 </details>
