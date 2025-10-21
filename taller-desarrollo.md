@@ -33,3 +33,10 @@ git config user.email "dayenira.delgado@gmail.com"
 - google drive tiene versionamiento
 - hot fix: cambio en produccion
 - cherry-pick: pasar solo un commit a una rama, no todos los cambios completos
+
+<details>
+<summary><b>17:10 21/10/2025</b></summary>
+  
+  - contenedores != a maquinas virtuales
+
+</details>
