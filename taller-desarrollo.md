@@ -59,5 +59,8 @@ https://drive.google.com/drive/folders/1bMCGAqUW2qqACvsGOST2RzkqbqLXfvJD?usp=sha
     ```bash
     docker compose -f compose-database-mysql.yml up -d
     ```
+  - public key not allowed
+    1. driver properties
+    2. allow public key retrival cambiar a true
 
 </details>
