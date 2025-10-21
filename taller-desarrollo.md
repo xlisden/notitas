@@ -55,5 +55,9 @@ https://drive.google.com/drive/folders/1bMCGAqUW2qqACvsGOST2RzkqbqLXfvJD?usp=sha
   - contendor != imagen
   - build, pull, run
   - imagnees = plantilla de sola lectura. a partir de umna sola imagebn. se crean N contenedores
+  - descargar composes
+    ```bash
+    docker compose -f compose-database-mysql.yml up -d
+    ```
 
 </details>
