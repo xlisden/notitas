@@ -53,4 +53,6 @@ git config user.email "dayenira.delgado@gmail.com"
   - cliente: terminal o docker desktop
   - contendor != imagen
   - build, pull, run
+  - imagnees = plantilla de sola lectura. a partir de umna sola imagebn. se crean N contenedores
+
 </details>
