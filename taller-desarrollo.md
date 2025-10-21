@@ -49,5 +49,8 @@ git config user.email "dayenira.delgado@gmail.com"
   - contenedores != a maquinas virtuales
     - mv - ocupa espacio: 32GB de RAM se puede crear 3maq de 8GB, para yo quedarme con 8
     - con - designa los recursos necesarios (espacio de memoria) para funcionar. No se necesita levantanr un SO para que funcione. Reutiliza componetnes del SO anfitrion
-
+  - registry = nube. donde estan las imagenes
+  - cliente: terminal o docker desktop
+  - contendor != imagen
+  - build, pull, run
 </details>
