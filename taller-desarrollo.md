@@ -66,4 +66,6 @@ https://drive.google.com/drive/folders/1bMCGAqUW2qqACvsGOST2RzkqbqLXfvJD?usp=sha
     ```sql
     SET search_path TO base_de_datos;
     ```
+  - mongo
+    - collecion == tabla
 </details>
