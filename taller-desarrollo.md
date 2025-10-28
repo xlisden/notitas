@@ -3,7 +3,15 @@
 git config user.name "xlisden"
 git config user.email "dayenira.delgado@gmail.com"
 ```
-https://drive.google.com/drive/folders/1bMCGAqUW2qqACvsGOST2RzkqbqLXfvJD?usp=sharing
+- Repositorio de archivos -> https://drive.google.com/drive/folders/1bMCGAqUW2qqACvsGOST2RzkqbqLXfvJD?usp=sharing
+
+<details>
+<summary><b>MongoDB</b></summary>
+
+  - con comparaciones sql: https://learn.mongodb.com/learn/course/mongodb-sql-cheat-sheet/main/mongodb-sql-cheat-sheet
+  - casi completo: https://www.geeksforgeeks.org/mongodb/mongodb-cheat-sheet/
+
+</details>
 
 <details>
 <summary><b>17:12 30/09/2025</b></summary>
