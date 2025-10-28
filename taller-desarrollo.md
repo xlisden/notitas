@@ -77,3 +77,17 @@ git config user.email "dayenira.delgado@gmail.com"
   - mongo
     - collecion == tabla
 </details>
+
+<details>
+<summary><b>16:27 28/10/2025</b></summary>
+  
+  - 
+
+</details>
+
+<details>
+<summary><b>plantilla</b></summary>
+  
+  - item
+
+</details>
