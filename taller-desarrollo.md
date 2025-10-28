@@ -80,9 +80,15 @@ git config user.email "dayenira.delgado@gmail.com"
 
 <details>
 <summary><b>16:27 28/10/2025</b></summary>
-  
-  - 
 
+  1. implementar las databases con las versiones latest (se actualizo docker en el repositorio)
+  2. 4 microservicios y un gateway
+
+  - siempre se debe implementar un log de errores
+
+  **Buenas practicas**
+  - validaciones - con manejo de excepciones
+    
 </details>
 
 <details>
