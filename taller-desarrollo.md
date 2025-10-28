@@ -87,7 +87,9 @@ git config user.email "dayenira.delgado@gmail.com"
   - siempre se debe implementar un log de errores
 
   **Buenas practicas**
-  - validaciones - con manejo de excepciones
+  - validaciones - con manejo de excepciones (se maneja mejor con centralizacion de excepcioens) - GlobalExceptionHandler
+    -  al implementar throws exception, no se necesita el try catch
+  - los logs tambien son informativos o de advertencia, no solo de errores
     
 </details>
 
