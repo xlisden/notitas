@@ -23,12 +23,18 @@ git config user.email "dayenira.delgado@gmail.com"
 </details>
 
 <details>
-<summary><b>Angular + Tailwind + DaisyUI</b></summary>
+<summary><b>Angular / Tailwind / DaisyUI</b></summary>
   
   - https://daisyui.com/docs/install/angular/
   ```bash
   npm install daisyui@latest tailwindcss@latest @tailwindcss/postcss@latest postcss@latest --force
   ```
+
+  - crear archivos
+  ```bash
+  ng g s nombreServicio --skip-tests
+  ```
+
 </details>
 
 <details>
@@ -132,3 +138,4 @@ SELECT * FROM libros;
   ```
 ---
 ### 17:28 29/10/2025
+
