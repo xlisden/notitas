@@ -73,7 +73,9 @@ git config user.email "dayenira.delgado@gmail.com"
   ```
 - bd bibliotecadb
   ```sql
-  CREATE SCHEMA IF NOT EXISTS bibliotecadb
+  CREATE SCHEMA IF NOT EXISTS bibliotecadb;
+  USE `bibliotecadb`;
+  
   CREATE TABLE `bibliotecadb`.`libros` (
     `id` INT NOT NULL AUTO_INCREMENT,
     `titulo` VARCHAR(45) NULL,
@@ -128,3 +130,5 @@ SELECT * FROM categoria ORDER BY id DESC;
 SELECT * FROM libros;
   
   ```
+---
+### 17:28 29/10/2025
