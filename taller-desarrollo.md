@@ -99,6 +99,7 @@ git config user.email "dayenira.delgado@gmail.com"
   - configurar logica de deasctivacion
   - traer todos los items activos
   - verificar existencias entre archivos activos
+  - clase abstracta para los campos de auditoria
   - analizar relaciones con las nuevas tablas
   - implementar cuantas escuelas hay por facultad
   - analizar nuevos endpoints resultantes de las tablas
