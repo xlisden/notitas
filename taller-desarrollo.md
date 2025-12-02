@@ -95,9 +95,7 @@ git config user.email "dayenira.delgado@gmail.com"
 
 <details>
 <summary><b>18:00 2/12/2025</b></summary>
-  
-  - configurar logica de deasctivacion
-  - traer todos los items activos
+
   - verificar existencias entre archivos activos
   - clase abstracta para los campos de auditoria
   - verificar checkExistsByNombre, primero de escuela
