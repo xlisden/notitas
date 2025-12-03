@@ -136,6 +136,27 @@ git config user.email "dayenira.delgado@gmail.com"
   SELECT * FROM libros;
   
   ```
+- autor
+  ```sql
+  CREATE TABLE IF NOT EXISTS `bibliotecadb`.`autor` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(100) NULL,
+  PRIMARY KEY (`id`)
+  );
+  ALTER TABLE `bibliotecadb`.`libros`
+  ADD COLUMN `autor_id` INT NULL AFTER `categoria_id`;
+  ALTER TABLE `bibliotecadb`.`libros`
+  ADD CONSTRAINT fk_libros_autor
+  FOREIGN KEY (autor_id)
+  REFERENCES autor(id)
+  ON DELETE SET NULL;
+  INSERT INTO `bibliotecadb`.`autor` (`nombre`) VALUES
+  ('Gabriel García Márquez'),
+  ('Miguel de Cervantes'),
+  ('Carlos Ruiz Zafón'),
+  ('Jorge Luis Borges'),
+  ('Roberto Bolaño');
+  ```  
 ---
 
 
