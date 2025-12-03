@@ -10,6 +10,7 @@ git config user.email "dayenira.delgado@gmail.com"
       ```bash
       npm i express cors dotenv mysql2
       npm i --save-dev nodemon
+      npm install swagger-ui-express swagger-jsdoc ----- http://localhost:3000/api-docs
       ```
   - iniciar
       ```bash
