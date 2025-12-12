@@ -52,6 +52,67 @@ git config user.email "dayenira.delgado@gmail.com"
 </details>
 
 ---
+
+<details>
+<summary><b>base de datos final</b></summary>
+
+  ```sql
+CREATE SCHEMA IF NOT EXISTS bibliotecadb;
+USE bibliotecadb;
+
+CREATE TABLE bibliotecadb.categoria (
+  id INT NOT NULL AUTO_INCREMENT,
+  nombre VARCHAR(45) NULL,
+PRIMARY KEY (id));
+
+CREATE TABLE IF NOT EXISTS bibliotecadb.autor (
+  id INT NOT NULL AUTO_INCREMENT,
+  nombre VARCHAR(100) NULL,
+PRIMARY KEY (id));
+
+CREATE TABLE bibliotecadb.libros (
+  id INT NOT NULL AUTO_INCREMENT,
+  titulo VARCHAR(45) NULL,
+  isbn VARCHAR(45) NULL,
+  editorial VARCHAR(45) NULL,
+  categoriaId INT NULL,
+  autorId INT NULL,
+PRIMARY KEY (id));
+
+ALTER TABLE bibliotecadb.libros 
+ADD CONSTRAINT fkLibrosCategoria
+FOREIGN KEY (categoriaId)
+REFERENCES categoria(id)
+ON DELETE SET NULL;
+
+ALTER TABLE bibliotecadb.libros
+ADD CONSTRAINT fkLibrosAutor
+FOREIGN KEY (autorId)
+REFERENCES autor(id)
+ON DELETE SET NULL;
+
+INSERT INTO bibliotecadb.categoria (nombre) VALUES ('drama'), ('comedia'), ('biografia');
+
+INSERT INTO bibliotecadb.autor (nombre) VALUES
+('Gabriel García Márquez'),
+('Miguel de Cervantes'),
+('Carlos Ruiz Zafón'),
+('Jorge Luis Borges'),
+('Roberto Bolaño');
+
+INSERT INTO bibliotecadb.libros
+(id, titulo, isbn, editorial, autorId)
+VALUES
+(1, 'Cien años de soledad', '978-3-16-148410-0', 'Editorial Sudamericana', 1),
+(2, 'Don Quijote de la Mancha', '978-84-376-0494-7', 'Editorial Planeta', 2),
+(3, 'La sombra del viento', '978-84-08-05306-6', 'Editorial Planeta', 3),
+(4, 'Ficciones', '978-84-95060-01-7', 'Editorial Alianza', 4),
+(5, 'El amor en los tiempos del cólera', '978-84-376-3433-3', 'Editorial Oveja Negra', 1),
+(6, 'Los detectives salvajes', '978-84-339-4249-0', 'Editorial Anagrama', 5);
+  ```
+
+</details>
+
 ### 19:46 26/09/2025
 - node js v22 - 22.20.0
 - angular v19 
