@@ -105,6 +105,24 @@ git config user.email "dayenira.delgado@gmail.com"
 
 </details>
 
+<details>
+<summary><b>kafka</b></summary>
+  
+```./kafka-topics.sh --create --topic testtopic --zookeeper localhost:2181 --replication-factor 1 --partitions 4```
+
+./kafka-topics.sh
+	el archivo dentro del servidor
+--créate
+	comando create
+ --topic testtopic
+	testtopic es el nomnbre del topic	
+ --zookeeper localhost:2181 
+	que va a utilizar, 2181 es el puerto donde corre kafka
+--replication-factor 1 --partitions 4
+	las particiones son relacionadas a la insfraestructura
+
+</details>
+
 <hr/>
 <details>
 <summary><b>plantilla</b></summary>
