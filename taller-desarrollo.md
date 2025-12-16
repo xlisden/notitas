@@ -106,7 +106,7 @@ git config user.email "dayenira.delgado@gmail.com"
 </details>
 
 <details>
-<summary><b>kafka</b></summary>
+<summary><b>kafka implementacion</b></summary>
   
 1. descargar el compose de kafka, y editar el networks
 
@@ -151,7 +151,39 @@ cuando se crea un topic, se crea un productor con el mismo nombre del topic. un 
 ----------------
 para saber si funciona, simplemente mensajear desde el productor
 
+</details>
 
+
+<details>
+<summary><b>kafka codigo </b></summary>
+
+libreria
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka-test</artifactId>
+			<scope>test</scope>
+		</dependency>	
+  
+ # emisor - cuando va actuar como emisor
+ spring.kafka.admin.properties.bootstrap.servers=localhost:9092 
+ # consumidor - cuando va actuar como consumidor
+ spring.kafka.consumer.group-id=nombredelcosumer
+
+dentro de la carpeta de message esta la configracion
+al metodo de la public class se le manda en el controller = messageEvent.metodo(objetoModel); cuando eres el emisor
+
+si erse el consumidor
+
+se tienen dos archivos en message
+1. config
+2. InvoiceConsumerListener
+public void OnMessage(ConsumerRecord<Integer, String> consumerRecord) // el consumer es el objeto serializado en string. Y luego se serializa en el mapper
+
+no debes poner un group de  consumidor que ya estas usando en terminales
 </details>
 
 <hr/>
