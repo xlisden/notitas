@@ -108,7 +108,9 @@ git config user.email "dayenira.delgado@gmail.com"
 <details>
 <summary><b>kafka</b></summary>
   
-```./kafka-topics.sh --create --topic testtopic --zookeeper localhost:2181 --replication-factor 1 --partitions 4```
+1. descargar el compose de kafka, y editar el networks
+
+./kafka-topics.sh --create --topic testtopic --zookeeper localhost:2181 --replication-factor 1 --partitions 4
 
 ./kafka-topics.sh
 	el archivo dentro del servidor
@@ -119,7 +121,36 @@ git config user.email "dayenira.delgado@gmail.com"
  --zookeeper localhost:2181 
 	que va a utilizar, 2181 es el puerto donde corre kafka
 --replication-factor 1 --partitions 4
-	las particiones son relacionadas a la insfraestructura
+	las particiones son relacionadas a la infraestructura
+-------------------
+
+./kafka-topics.sh 
+--list --zookeeper localhost:2181
+	lista los tópicos del zookepper del 2181
+
+---------------------
+creando un productor
+./kafka-console-producer.sh
+	referencia al archivo producer
+ --broker-list localhost:9092
+	vas a crear el bróker en el Kafka del 9092
+ --topic testtopic
+	el nombre del topic
+----------
+cuando se crea un topic, se crea un productor con el mismo nombre del topic. un productor no hace nada sin consumidores. Asi que se debe crear un consumidor
+1. se abre una nueva terminal, y se ejecuta de nuevo cd opt/kafka_2.13-2.6.0/bin
+2. ahí se crea el consumidor
+-----------
+./kafka-console-consumer.sh
+ --bootstrap-server localhost:9092
+	apunta al Bootstrap que esta el Kafka en el 9092
+ --topic testtopic
+	el topico anteriormente creado
+ --group prueba01A
+	el nombre del grupo puedfe ser cualquiera
+----------------
+para saber si funciona, simplemente mensajear desde el productor
+
 
 </details>
 
