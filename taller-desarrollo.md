@@ -186,6 +186,24 @@ public void OnMessage(ConsumerRecord<Integer, String> consumerRecord) // el cons
 no debes poner un group de  consumidor que ya estas usando en terminales
 </details>
 
+<summary><b>redis</b></summary>
+  
+ #10 minutos
+spring.cache.redis.time-to-live=60000
+
+en service, en el general
+@CacheConfig(cacheNames = "transaction")
+
+para tener datos en cache, para almacenar datos en cache y no llamar tanto a la db
+
+y en el proyecto, solo en el catalogo estara en cache
+y solo en la funcion necesaria
+
+	@Cacheable(cacheNames = { "transaction" }, key = "#id_invoice")
+
+
+</details>
+
 <hr/>
 <details>
 <summary><b>plantilla</b></summary>
