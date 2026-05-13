@@ -1,3 +1,4 @@
+<hr/>
 <details>
 <summary><b>plantilla</b></summary>
   
