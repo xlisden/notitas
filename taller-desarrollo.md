@@ -1,7 +1,7 @@
 # taller-desarrollo-notes
 ```bash
-git config user.name "xlisden"
-git config user.email "dayenira.delgado@gmail.com"
+git config --local user.name "xlisden"
+git config --local user.email "dayenira.delgado@gmail.com"
 ```
 - Repositorio de archivos -> https://drive.google.com/drive/folders/1bMCGAqUW2qqACvsGOST2RzkqbqLXfvJD?usp=sharing
 
