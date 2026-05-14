@@ -41,5 +41,6 @@
           android:allowBackup="true"
           android:dataExtractionRules="@xml/data_extraction_rules"
   ```
+<img width="533" height="314" alt="image" src="https://github.com/user-attachments/assets/a74a8c59-9d60-4556-a6d6-0a6c1a9db79c" />
 
 </details>
