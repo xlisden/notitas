@@ -41,7 +41,14 @@ ServDBDE
   RETAIL = fisico, clave que te dan, tienda fisica / clave independiente del hardware, se puede usar 1 equipo conectado a la vez
   VOLUMEN / CSP = para organizaciones
   * licencias por procesador, o por nucleos. Caracteristicas del servidor, y al ser asesorado por los que saben, tendras las licencias adecuadas
-  * 
+- para desblioquaer
+  <img width="504" height="195" alt="image" src="https://github.com/user-attachments/assets/b409ae7a-f927-43c3-ba12-c8c9a77b428f" />
+- para que aparezcan <img width="468" height="309" alt="image" src="https://github.com/user-attachments/assets/9ba3f97b-b8bd-4bd1-bb2c-7e30921601aa" />
+<img width="533" height="300" alt="image" src="https://github.com/user-attachments/assets/b1fe8524-6fc1-4914-9be6-581e909f0a42" />
+- para redimiensionar <img width="382" height="198" alt="image" src="https://github.com/user-attachments/assets/1eed19b0-0296-4134-8c56-78f80af58846" />
+para apagar unnplanned
+
+- 
 
   		
   
