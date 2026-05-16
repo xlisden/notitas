@@ -19,7 +19,10 @@ ServDBDE
 
 	red > 
 		con la NAT solo tienes internet
-		adaptador puente todo, se puede poder ip similar 
+		adaptador puente todo, se puede poder ip similar
+		<img width="689" height="281" alt="image" src="https://github.com/user-attachments/assets/c778366f-ac3a-417f-a725-184dc0a85483" />
+  		4697BB = identifica la tarjeta de red
+  
   
 
 *** virtualizadores aparte de VirtualBox
