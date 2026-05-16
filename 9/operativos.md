@@ -1,3 +1,4 @@
+20:58 15/05/2026
 ServDBDE
 - por recomendación/convención cualquier cosa que no sea el SO va en la unidad D
 - D:\deprecated\SO
