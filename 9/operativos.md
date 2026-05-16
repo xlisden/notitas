@@ -31,8 +31,17 @@ ServDBDE
 - licencia wndiws
   standard = hasta 2VMs, entorno fisico o baja densidad, mejor costo, replicar en fisico?? 
   datacenter = en la nube, para +12 VMs,
-* alta disponibilidad, live migration,   "el siustema no muere"
-  *** configurar live migration para hacer la tesis de Dacia
+* alta disponibilidad, live migration,   "el sistema no muere"
+  *** configurar live migration para hacer la tesis de Dacia. Podrias necesitar licencias para el Azure, con el ssh????
+- CAL = Client Access License
+  	UserCAL = para cuando hay mas empleados
+  	DeviceCAL = solo el quipo tiene licencia, como para turnos rotativos
+- tipos de licencia
+  OEM = el sitema operativo esta del firmware / preinstalado de fabrica
+  RETAIL = fisico, clave que te dan, tienda fisica / clave independiente del hardware, se puede usar 1 equipo conectado a la vez
+  VOLUMEN / CSP = para organizaciones
+  * licencias por procesador, o por nucleos. Caracteristicas del servidor, y al ser asesorado por los que saben, tendras las licencias adecuadas
+  * 
 
   		
   
