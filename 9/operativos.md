@@ -48,8 +48,8 @@ ServDBDE
 - para redimiensionar <img width="382" height="198" alt="image" src="https://github.com/user-attachments/assets/1eed19b0-0296-4134-8c56-78f80af58846" />
 para apagar unnplanned
   HYPER V
-- SAN almacenamiento de disco en red
-
+- SAN almacenamiento de disco en red / los SAN grandes se parewcen a servidores
+- 
   		
   
   
