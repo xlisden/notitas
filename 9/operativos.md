@@ -16,12 +16,23 @@ ServDBDE
 	pantalla > 
 	almacenamiweto > azulito disk a choose file
 	<img width="572" height="317" alt="image" src="https://github.com/user-attachments/assets/07db705d-7e74-4d0e-83c4-dd377b0e5798" />
-
 	red > 
 		con la NAT solo tienes internet
-		adaptador puente todo, se puede poder ip similar
+		adaptador puente todo, se puede poder ip similar *CAMBIAR A ESTO*
 		<img width="689" height="281" alt="image" src="https://github.com/user-attachments/assets/c778366f-ac3a-417f-a725-184dc0a85483" />
-  		4697BB = identifica la tarjeta de red
+  		4697BB = identifica la tarjeta de red, un programa puede estar pegado a una direccion fisica de RED
+  	carpeta compartida, aparecen como una nueva uniidad / como un
+  	<img width="777" height="357" alt="image" src="https://github.com/user-attachments/assets/eadfe9a2-d8b9-4d5d-afca-1960a0c434d7" />
+- esquemas de particion
+  GPT
+  	programas actuales, para mas de 2TBm sistema con firmware UEFI
+  MBR
+  	hasta 2TB, W7 o W10 linux heradod
+- licencia wndiws
+  standard
+  datacenter
+
+  		
   
   
 
