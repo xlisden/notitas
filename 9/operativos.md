@@ -15,9 +15,12 @@ ServDBDE
 	sistema > óptica+disco duro activo, red 3ero
 	pantalla > 
 	almacenamiweto > azulito disk a choose file
+	<img width="572" height="317" alt="image" src="https://github.com/user-attachments/assets/07db705d-7e74-4d0e-83c4-dd377b0e5798" />
+
 	red > 
 		con la NAT solo tienes internet
-		adaptador puente todo
+		adaptador puente todo, se puede poder ip similar 
+  
 
 *** virtualizadores aparte de VirtualBox
 
