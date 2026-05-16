@@ -49,6 +49,7 @@ ServDBDE
 para apagar unnplanned
   HYPER V
 - SAN almacenamiento de disco en red / los SAN grandes se parewcen a servidores
+- SAN y NAS = fibra canal. NAS en ethernet las es lenta SAN ES POR FIBRA ALTA VELOCIDAD
 - 
   		
   
