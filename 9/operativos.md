@@ -29,8 +29,10 @@ ServDBDE
   MBR
   	hasta 2TB, W7 o W10 linux heradod
 - licencia wndiws
-  standard
-  datacenter
+  standard = hasta 2VMs, entorno fisico o baja densidad, mejor costo, replicar en fisico?? 
+  datacenter = en la nube, para +12 VMs,
+* alta disponibilidad, live migration,   "el siustema no muere"
+  *** configurar live migration para hacer la tesis de Dacia
 
   		
   
