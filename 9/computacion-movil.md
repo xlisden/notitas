@@ -44,3 +44,15 @@
 <img width="533" height="314" alt="image" src="https://github.com/user-attachments/assets/a74a8c59-9d60-4556-a6d6-0a6c1a9db79c" />
 
 </details>
+
+
+<hr/>
+<details>
+<summary><b>18:35 20/05/2026</b></summary>
+
+  #### actividad
+  - actividad = interaccion
+  - rol = punto de entrada, pila de actividades (de tipo LIFO), gestion de recursos (destruye actividades en segundo plano para liberar memoria si fuera necesario)
+  <img width="513" height="663" alt="image" src="https://github.com/user-attachments/assets/6af123fa-9a50-4d68-aa66-9b630680e23a" />
+
+</details>
