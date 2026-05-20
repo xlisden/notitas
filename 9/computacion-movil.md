@@ -58,4 +58,7 @@
   #### callback
   - `onCreate()` = solo una vez, al iniciar los componentes
   - `onStart()` = visible para el usuario, listo para el primer plano, pero aun no se hace uso
+  - `onPause()` = guarda datos para saber donde se ha quedado, pausar animaciones. Debe ser muy rapido
+  - `onStop()` = se debe liberar recursos, sobretodo los pesados
+  - `onDestroy()` = limpieza total, para que no quede memoria ocupada. Se llama antes que desaparezca completamente
 </details>
