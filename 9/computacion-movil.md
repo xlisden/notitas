@@ -55,4 +55,7 @@
   - rol = punto de entrada, pila de actividades (de tipo LIFO), gestion de recursos (destruye actividades en segundo plano para liberar memoria si fuera necesario)
   <img width="513" height="663" alt="image" src="https://github.com/user-attachments/assets/6af123fa-9a50-4d68-aa66-9b630680e23a" />
 
+  #### callback
+  - `onCreate()` = solo una vez, al iniciar los componentes
+  - `onStart()` = visible para el usuario, listo para el primer plano, pero aun no se hace uso
 </details>
