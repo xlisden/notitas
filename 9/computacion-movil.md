@@ -6,6 +6,9 @@
 
 </details>
 
+  ```java
+  ```
+
 <hr/>
 <details>
 <summary><b>18:32 13/05/2026</b></summary>
@@ -87,9 +90,29 @@
         }
     }
     ```
-  <img width="918" height="639" alt="image" src="https://github.com/user-attachments/assets/438b0577-d1f6-467a-bac8-6f70dc28ff49" />
+  
+  #### agregar audio
   - res > androind resource diurectory algo > raw (archivos)
+  ```java
+    private var mediaPlayer: MediaPlayer? = null
+  ```
+  ```java
+    override fun onStart() {
+        super.onStart()
+        Log.i("LifeCycle", "onStart()")
+        mediaPlayer = MediaPlayer.create(this, R.raw.gallo)
+    }
+  ```
+  ```java
+    override fun onResume() {
+        super.onResume()
+        Log.i("LifeCycle", "onResume()")
+        mediaPlayer?.start()
+    }
+  ```
 
+  #### agregar second activity
+  <img width="918" height="639" alt="image" src="https://github.com/user-attachments/assets/438b0577-d1f6-467a-bac8-6f70dc28ff49" />
 </details>
 
 
