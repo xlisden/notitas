@@ -63,11 +63,32 @@
   - `onDestroy()` = limpieza total, para que no quede memoria ocupada. Se llama antes que desaparezca completamente
 
   #### buenas practicas
-  - debajo de compile options en build-gradle.tls
+  - debajo de compile options en build-gradle.tls, y suncronizar
     ```java
-      buildFeatures = {viewBinding = true}
+    buildFeatures = {viewBinding = true}
     ```
-
+  - main 
+    ```java
+    class MainActivity : AppCompatActivity() {
+    
+        private lateinit var binding: ActivityMainBinding
+    
+        override fun onCreate(savedInstanceState: Bundle?) {
+            super.onCreate(savedInstanceState)
+            enableEdgeToEdge()
+    //        setContentView(R.layout.activity_main)
+            binding = ActivityMainBinding.inflate(layoutInflater)
+            setContentView(binding.root)
+            ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+                val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+                v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+                insets
+            }
+        }
+    }
+    ```
+  <img width="918" height="639" alt="image" src="https://github.com/user-attachments/assets/438b0577-d1f6-467a-bac8-6f70dc28ff49" />
+  - res > androind resource diurectory algo > raw (archivos)
 
 </details>
 
