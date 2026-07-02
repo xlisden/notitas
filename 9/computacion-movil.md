@@ -117,4 +117,32 @@ https://app.capacities.io/home/4bfe725f-95c1-4696-9e6e-68950f70b238
 </details>
 
 
-
+<hr/>
+<details>
+<summary><b>18:37 1/07/2026</b></summary>
+  
+  - quitar sonido al minimizar
+    ```java
+    override fun onStop() {
+        super.onStop()
+        mediaPlayer?.stop()
+    }
+    ```
+  - para tener donde se quedo
+      ```java
+    private var position: Int = 0
+    ``` - 
+    ```java
+    override fun onPause() {
+        super.onPause()
+        mediaPlayer?.let { player ->
+            player.pause()
+            position = player.currentPosition
+        }
+    }
+    ```
+      on resume
+    ```java
+    mediaPlayer?.seekTo(position)
+    ```
+</details>
