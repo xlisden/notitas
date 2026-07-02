@@ -145,4 +145,32 @@ https://app.capacities.io/home/4bfe725f-95c1-4696-9e6e-68950f70b238
     ```java
     mediaPlayer?.seekTo(position)
     ```
+    <hr/>
+
+  ### calculadora
+    <img width="647" height="477" alt="image" src="https://github.com/user-attachments/assets/7a866d5d-12ce-4ff1-bc3b-768a4fd143ab" />
+
+  - activity.xml
+    ```java
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        >
+    </LinearLayout>
+    ```
+  - ss
+  - wwww
+  - w
+    
+
+    ```java
+    mediaPlayer?.seekTo(position)
+    ```
 </details>
